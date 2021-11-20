@@ -24,12 +24,28 @@ body {
     float: right;
 }
 
+header ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: sans-serif;
+}
+
 header ul li {
+    padding-top: 6px;
     list-style: none;
+    margin-left: 20px;
 }
 
 header ul li a {
     text-decoration: none;
-    align-items: center;
     padding: 6px 15px;
+    color: #fff;
+    background: #03505c;
+    border-radius: 20px;
+}
+
+header ul li a:hover {
+    background: #fff;
+    color: #03505c;
 }
