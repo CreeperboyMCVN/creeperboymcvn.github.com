@@ -1,8 +1,9 @@
 body {
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.a-header {
+.a-header{
     height: 50px;
     background-color: #222121;
     color: white;
@@ -10,9 +11,10 @@ body {
 }
 
 .aA-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     font-size: medium;
     padding-left: 40px;
+    display: flex;
 }
 
 .b-titleLink {
@@ -20,33 +22,109 @@ body {
     color: white;
 }
 
-.c-nav {
-    float: right;
-}
 
-header ul {
+.nav {
     display: flex;
-    justify-content: right;
-    align-items: center;
-    font-family: sans-serif;
+    margin-left: 40%;
 }
 
-header ul li {
-    padding-top: 6px;
-    list-style: none;
-    margin-left: 20px;
-}
-
-header ul li a {
+.nav a {
     text-decoration: none;
+    color: white;
+    background-color: #121212;
     padding: 6px 15px;
-    color: #fff;
-    background: #03505c;
-    border-radius: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 4px;
 }
 
-header ul li a:hover {
-    background: #fff;
-    color: #03505c;
-    
+.nav a:hover {
+    text-decoration: none;
+    color: #121212;
+    background-color: white;
+    padding: 6px 15px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 4px;
 }
+
+.avt-warpper {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.avt-info{
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.avt-title{
+    align-content: center;
+    color: #121212;
+    font-size: 50px;
+}
+
+.avt-desc {
+    color: #aaaaaa;
+}
+
+.gh-img {
+    margin-left: 20px;
+    border: 5px;
+    border-style: solid;
+    border-color: #121212;
+}
+
+.gh-title{
+    margin-left: 20px;
+    align-content: center;
+    color: #121212;
+    font-size: 50px;
+}
+
+.gh-desc {
+    margin-left: 20px;
+    color: #aaaaaa;
+}
+
+.gh-info{
+    margin-bottom: 100px;
+}
+
+.mc-title{
+    margin-right: 20px;
+    align-content: center;
+    color: #121212;
+    font-size: 50px;
+}
+
+.mc-desc {
+    margin-right: 20px;
+    color: #aaaaaa;
+}
+
+.mc-info{
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+.mc-img-warpper {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.mc-img {
+    height: 400px;
+    width: 600px;
+}
+
+.footer{
+    background-color: #222121;
+    color: #aaaaaa;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
