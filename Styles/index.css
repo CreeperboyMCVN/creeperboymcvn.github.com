@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 
-.a-header {
+div.a-header {
     height: 50px;
     background: #222121;
 }
