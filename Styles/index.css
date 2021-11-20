@@ -2,7 +2,16 @@ body {
     margin: 0px;
 }
 
-div.a-header {
+.a-header {
     height: 50px;
     background-color: #222121;
+    color: white;
+    padding-top: 20px;
+}
+
+.aA-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    display: flex;
+    
 }
