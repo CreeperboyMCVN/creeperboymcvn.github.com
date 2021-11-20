@@ -12,10 +12,23 @@ body {
 .aA-title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-    display: flex;
     padding-left: 40px;
 }
 
 .b-titleLink {
     text-decoration: none;
+}
+
+.c-nav {
+    float: right;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    align-items: center;
+    padding: 6px 15px;
 }
