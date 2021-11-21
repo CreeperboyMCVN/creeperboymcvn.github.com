@@ -77,6 +77,7 @@ body {
 }
 
 .gh-title{
+    margin-bottom: 10px;
     margin-left: 20px;
     align-content: center;
     color: #121212;
@@ -89,6 +90,7 @@ body {
 }
 
 .gh-info{
+    margin-top: 10px;
     margin-bottom: 100px;
 }
 
@@ -107,6 +109,7 @@ body {
 .mc-info{
     text-align: right;
     margin-bottom: 100px;
+    margin-top: 10px;
 }
 
 .mc-img-warpper {
@@ -128,3 +131,28 @@ body {
     padding-bottom: 20px;
 }
 
+.title-link {
+    text-decoration: none;
+    color: #121212;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.title-link:hover {
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: #121212;
+    background: #eeeeee;
+    animation-name: title-link-anim;
+    animation-duration: 0.5s;
+}
+
+@keyframes title-link-anim {
+    from {
+        background: white;
+    }
+    to {
+        background: #eeeeee;
+    }
+}

@@ -1,0 +1,16 @@
+.server-info {
+    margin-left: 30px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #000000;
+    margin-bottom: 30px;
+}
+
+.server-info .server-title p strong a {
+    text-decoration: none;
+    font-size: 30px;
+
+}
+

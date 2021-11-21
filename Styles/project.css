@@ -1,0 +1,30 @@
+.body-info {
+    margin-left: 10px;
+    font-size: larger;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.project-body {
+    margin-left: 20px;
+    border-top: 1px;
+    border-left: 0px;
+    border-bottom: 1px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #eeeeee;
+}
+
+.project-body .project-header p strong a {
+    text-decoration: none;
+    color: #4323ff;
+}
+
+.project-body .project-header p span{
+    text-decoration: none;
+    font-size: small;
+}
+
+.project-end {
+    margin-top: 70px;
+}
