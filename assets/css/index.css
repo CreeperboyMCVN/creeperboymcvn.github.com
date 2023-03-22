@@ -1,0 +1,102 @@
+:root {
+    --primary: #BB86FC;
+    --primary-v: #3700B3;
+    --secondary: #03DAC6;
+    --color0: #121212;
+    --color1: #CF6679;
+    --text1: #FFFFFF;
+    --text2: #000000;
+}
+
+html, body {
+    margin: 0;
+    background-color: var(--color0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--text1);
+}
+
+.banner {
+    height: 200px;
+    background: url(../image/city.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    transform: translateY(-50%);
+    margin-left: 10%;
+}
+
+.avatar {
+    content: "";
+    display: inline-block;
+    background-color: var(--color0);
+    width: 5.5em;
+    height: 5.5em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    border-radius: 2.8em;
+}
+
+.avt-img {
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+    background: url(../image/avt.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2.5em;
+}
+
+.name-info {
+    display: inline-block;
+}
+
+.name {
+    font-size: x-large;
+}
+
+.subname {
+    font-size: small;
+    color: var(--color1);
+}
+
+.body {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.short-desc {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social {
+    text-align: center;
+}
+
+.social-button {
+    background-color: #FFFFFF10;
+    padding: 1em;
+    border-radius: 1em;
+    margin-top: 0.25em;
+    font-size: large;
+    text-align: left;
+}
+
+.social-button:hover {
+    background-color: #FFFFFF20;
+}
+
+.social-button i {
+    color: var(--color1);
+}
