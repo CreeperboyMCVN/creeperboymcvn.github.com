@@ -33,6 +33,14 @@ html,body {
     padding: 4px;
 }
 
+.music {
+    text-align: center;
+}
+
+#music {
+    width: 250px;
+}
+
 .banner {
     height: 200px;
     background: url(../image/banner.gif);
