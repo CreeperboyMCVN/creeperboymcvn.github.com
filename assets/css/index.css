@@ -4,23 +4,47 @@
     --secondary: #03DAC6;
     --color0: #121212;
     --color1: #CF6679;
+    --color2: #242424;
     --text1: #FFFFFF;
     --text2: #000000;
+    --text3: #aaa;
+
+    --accent1: #0f52e6;
+    --accent2: #050374;
+    --accent1_d: #00000090;
+    --accent2_d: #00000050;
 }
 
-html, body {
+html {
     margin: 0;
-    background-color: var(--color0);
+    background-image: linear-gradient(225deg, var(--color0), var(--color2));
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--text1);
 }
 
+body {
+    margin: 1em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1em;
+    max-width: 600px;
+    min-width: 500px;
+    background: linear-gradient(var(--accent1), var(--accent2));
+    padding: 4px;
+}
+
 .banner {
     height: 200px;
-    background: url(../image/city.png);
-    background-position: center;
+    background: url(../image/banner.gif);
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 1em 1em 0 0;
+}
+
+.border-wrapper {
+    background: linear-gradient(var(--accent2_d), var(--accent1_d));
+    border-radius: 1em;
 }
 
 .title {
@@ -31,11 +55,11 @@ html, body {
 .avatar {
     content: "";
     display: inline-block;
-    background-color: var(--color0);
-    width: 5.5em;
-    height: 5.5em;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
+    background: #082376;
+    width: 5.25em;
+    height: 5.25em;
+    padding-top: 0.25em;
+    padding-left: 0.25em;
     border-radius: 2.8em;
 }
 
@@ -60,12 +84,15 @@ html, body {
 
 .subname {
     font-size: small;
-    color: var(--color1);
+    color: var(--text3);
 }
 
 .body {
     margin-left: 1em;
     margin-right: 1em;
+    background-color: #00000060;
+    padding: 0.75em;
+    border-radius: 5px;
 }
 
 .short-desc {
@@ -85,7 +112,7 @@ a {
 }
 
 .social-button {
-    background-color: #FFFFFF10;
+    background-color: #FFFFFF20;
     padding: 1em;
     border-radius: 1em;
     margin-top: 0.25em;
@@ -94,9 +121,9 @@ a {
 }
 
 .social-button:hover {
-    background-color: #FFFFFF20;
+    background-color: #FFFFFF40;
 }
 
 .social-button i {
-    color: var(--color1);
+    color: var(--text3);
 }
