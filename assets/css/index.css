@@ -28,7 +28,7 @@ body {
     transform: translateX(-50%);
     border-radius: 1em;
     max-width: 600px;
-    min-width: 500px;
+    min-width: 400px;
     background: linear-gradient(var(--accent1), var(--accent2));
     padding: 4px;
 }
