@@ -33,12 +33,77 @@ html,body {
     padding: 4px;
 }
 
-.music {
-    text-align: center;
+.control-btn, .mute-btn {
+    cursor: pointer;
 }
 
+.music {
+    position: relative;
+    text-align: center;
+    background: #FFFFFF40;
+    padding: 0.25em;
+    width: 300px;
+    border-radius: 0.25em;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    position: relative;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    background: var(--text3);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    position: relative;
+    -webkit-appearance: none;
+    box-sizing: content-box;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: -6px 0 0 0;
+    background-color: #0ff;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+    transform: scale(1.2);
+    background: var(--text3);
+}
+
+input[type="range"]#seeker::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: var(--seek-before-width);
+    height: 3px;
+    background: linear-gradient(to right, var(--accent1), var(--accent2));
+    cursor: pointer;
+}
+
+input[type="range"]#vol::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: var(--vol-before-width);
+    height: 3px;
+    background: linear-gradient(to right, var(--accent1), var(--accent2));
+    cursor: pointer;
+}
+
+
+
 #music {
-    width: 250px;
+    width: 300px;
 }
 
 .banner {
