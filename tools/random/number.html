@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chọn số ngẫu nhiên</title>
+    <link rel="stylesheet" href="../index.css">
+    <script src="https://kit.fontawesome.com/38532f8345.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="content-wrapper">
+            <h1>Chọn số ngẫu nhiên</h1>
+            <div class="section">
+                <h3>Cài đặt</h3>
+                Chọn ngẫu nhiên 
+                <input type="number" name="amt" id="amt" class="input" min="1" max="999" value="1">
+                 số từ 
+                <input type="number" name="min" id="min" class="input" value="1">
+                 đến 
+                <input type="number" name="max" id="max" class="input" value="100"><br>
+                <br>
+                <input type="checkbox" name="no_repeat" id="no_repeat" class="input">
+                Không lặp lại
+                <br>
+                <button class="create-rand-num">Tạo</button>
+            </div>
+            <div class="section">
+                <h3>Kết quả</h3>
+                <p class="result">Chưa có</p>
+            </div>
+        </div>
+    </div>
+    <script src="number.js"></script>
+</body>
+</html>

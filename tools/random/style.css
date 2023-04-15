@@ -1,0 +1,21 @@
+.input {
+    background: #ffffff50;
+    border: 0;
+    font-family: inherit;
+}
+
+.input[type=number] {
+    max-width: 50px;
+}
+
+button {
+    background-color: #ffffff50;
+    color: var(--text1);
+    border: 0;
+    padding: 0.25rem;
+    margin-top: 0.25rem;
+    min-width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: #00000020 3px 3px 3px;
+}
